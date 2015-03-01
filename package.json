@@ -1,0 +1,12 @@
+{
+  "name": "salario-liquido-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/server",
+  "author": "Nicholas Pufal <niko.pufal@gmail.com> (http://nicholaspufal.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "salario-liquido": "^1.0.1"
+  }
+}

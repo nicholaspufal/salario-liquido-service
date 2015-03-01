@@ -1,0 +1,14 @@
+# salario-liquido-service
+A very simple HTTP server that exposes an endpoint to be able to calculate a brazilian net salary.
+
+It uses [salario-liquido](https://github.com/nicholaspufal/salario-liquido) under the hood.
+
+## Getting Started
+
+1. Clone this repository and `cd` into it
+2. Run `npm install`
+3. Run `./bin/server` to get your local server running
+4. Do a `GET` to `http://localhost:3000/calculate_net_salary?grossSalary=1000&dependents=0` and receive information about your net salary :)
+
+## License
+This is licensed under the feel-free-to-do-whatever-you-want-to-do license.
