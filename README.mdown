@@ -5,6 +5,14 @@ It uses [salario-liquido](https://github.com/nicholaspufal/salario-liquido) unde
 
 ## Getting Started
 
+Using Docker:
+
+1. `docker build -t salario-liquido-service .` to build the image
+2. Run a container with `docker run --name salario-liquido -d -p 3000:3000 salario-liquido-service`
+3. Enjoy!
+
+Using your local box:
+
 1. Clone this repository and `cd` into it
 2. Run `npm install`
 3. Run `./bin/server` to get your local server running
