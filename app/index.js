@@ -11,6 +11,7 @@ function calculateNetSalary(querystring) {
 
 app.get('/calculate_net_salary', function(request, response) {
   var responseBody = calculateNetSalary(request.query);
+  response.header('Access-Control-Allow-Origin', '*');
   response.send(responseBody);
 });
 
